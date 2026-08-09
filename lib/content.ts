@@ -7,6 +7,7 @@ export const profile = {
   email: "shahfaisalgfg@gmail.com",
   github: "https://github.com/ShahFaisalGfG",
   linkedin: "https://linkedin.com/in/shah-faisal-gfg",
+  whatsapp: "https://wa.me/+923217032390",
 };
 
 export type Experience = {

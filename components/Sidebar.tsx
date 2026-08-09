@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Mail } from "lucide-react";
-import { GitHubIcon, LinkedInIcon } from "./icons";
+import { GitHubIcon, LinkedInIcon, WhatsAppIcon } from "./icons";
 import { profile } from "@/lib/content";
 
 const navLinks = [
@@ -88,6 +88,15 @@ export default function Sidebar() {
           className="hover:text-accent transition-colors hover:-translate-y-0.5 inline-block"
         >
           <LinkedInIcon size={20} />
+        </a>
+        <a
+          href={profile.whatsapp}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="WhatsApp"
+          className="hover:text-accent transition-colors hover:-translate-y-0.5 inline-block"
+        >
+          <WhatsAppIcon size={20} />
         </a>
         <a
           href={`mailto:${profile.email}`}
