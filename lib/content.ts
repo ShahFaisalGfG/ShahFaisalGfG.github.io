@@ -57,6 +57,7 @@ export const projects: Project[] = [
     stack: [
       "FastAPI",
       "PostgreSQL",
+      "LangChain",
       "Celery",
       "Redis",
       "Docker",
