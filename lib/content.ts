@@ -53,7 +53,7 @@ export const projects: Project[] = [
   {
     name: "TruAris",
     description:
-      "Multi-tenant SaaS platform for revenue intelligence. Organization is the tenant boundary: a user can belong to more than one org, and a JWT represents them acting inside one active org at a time. Postgres row-level security is enforced through a non-superuser app role, and Celery workers handle prospecting, channel identification, and batch scoring jobs in the background. The LLM layer is provider-agnostic, built to switch between OpenAI and Anthropic behind one interface.",
+      "TruAris is a fully autonomous, multilingual outbound sales and lead engagement platform. It handles the complete lead lifecycle: cold import, qualification, follow-up, escalation to human reps, and CRM pipeline management. Organization is the tenant boundary, with Postgres row-level security enforced through a non-superuser app role. Celery workers run prospecting, channel identification, and batch scoring in the background, and the LLM layer switches between OpenAI and Anthropic behind one interface.",
     stack: [
       "FastAPI",
       "PostgreSQL",
