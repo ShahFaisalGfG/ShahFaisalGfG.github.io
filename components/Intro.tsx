@@ -3,13 +3,19 @@
 import { motion } from "motion/react";
 import type { ReactNode } from "react";
 
-export default function Intro({ children }: { children: ReactNode }) {
+export default function Intro({
+  children,
+  delay = 0,
+}: {
+  children: ReactNode;
+  delay?: number;
+}) {
   return (
     <motion.p
       className="text-muted text-sm leading-relaxed"
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.6, ease: "easeOut", delay }}
     >
       {children}
     </motion.p>
