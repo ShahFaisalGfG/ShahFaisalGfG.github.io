@@ -19,10 +19,9 @@ export default function Home() {
             LangChain-based AI features that sit next to them.
           </Intro>
           <Intro delay={0.15}>
-            Payments work is part of that too: a Finix integration handling
-            card tokenization, subscriptions, and webhook-driven
-            reconciliation, and earlier in my career, debugging Oracle
-            FLEXCUBE&apos;s core banking modules.
+            I&apos;ve also worked on payments: a Finix integration for card
+            tokenization and webhook reconciliation, plus Oracle
+            FLEXCUBE&apos;s core banking modules earlier in my career.
           </Intro>
         </div>
         <Experience />
