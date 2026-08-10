@@ -1,8 +1,8 @@
 export const profile = {
   name: "Shah Faisal",
-  role: "Backend Developer",
+  role: "Software Engineer",
   tagline:
-    "I build backend systems in Python. FastAPI services, SQL data models, and the workers behind them.",
+    "I build backend systems in Python: FastAPI services and SQL data models, plus LLMs and agentic AI workflows on top of them with LangChain.",
   location: "Lahore, Pakistan",
   email: "shahfaisalgfg@gmail.com",
   github: "https://github.com/ShahFaisalGfG",
@@ -20,7 +20,7 @@ export type Experience = {
 export const experience: Experience[] = [
   {
     company: "Meissasoft",
-    title: "Backend Developer",
+    title: "Backend Python Developer",
     period: "Jan 2026 - Present",
     points: [
       "Build and maintain backend services in Python with FastAPI",
@@ -54,7 +54,7 @@ export const projects: Project[] = [
   {
     name: "TruAris",
     description:
-      "TruAris is a fully autonomous, multilingual outbound sales and lead engagement platform. It handles the complete lead lifecycle: cold import, qualification, follow-up, escalation to human reps, and CRM pipeline management. Organization is the tenant boundary, with Postgres row-level security enforced through a non-superuser app role. Celery workers run prospecting, channel identification, and batch scoring in the background, and the LLM layer switches between OpenAI and Anthropic behind one interface.",
+      "TruAris is a fully autonomous, multilingual outbound sales and lead engagement platform. It handles the complete lead lifecycle: cold import, qualification, follow-up, escalation to human reps, and CRM pipeline management. I started this project from scratch and built its core backend, and I'm still actively developing it while guiding the frontend implementation. I own the backend end to end: the business logic, organization-scoped tenancy with Postgres row-level security enforced through a non-superuser app role, Celery workers running prospecting, channel identification, and batch scoring, the LangChain-based LLM layer switching between OpenAI and Anthropic, and the AWS deployment and GitHub Actions CI/CD pipeline behind it.",
     stack: [
       "FastAPI",
       "PostgreSQL",
@@ -62,6 +62,8 @@ export const projects: Project[] = [
       "Celery",
       "Redis",
       "Docker",
+      "AWS",
+      "GitHub Actions",
       "JWT",
     ],
     link: { label: "truaris.com", href: "https://www.truaris.com" },
@@ -86,7 +88,7 @@ export const projects: Project[] = [
     name: "Osala",
     image: "/images/osala.png",
     description:
-      "Backend for a beauty and business management platform used through a mobile app. Handles bookings, catalog, and scheduling, plus a full Finix payment integration: card tokenization, subscriptions, webhook-driven reconciliation, and dispute handling. Backed by Postgres through Supabase with Alembic-managed migrations.",
+      "Backend for a beauty and business management platform used through a mobile app. Handles bookings, catalog, and scheduling, plus a full Finix payment integration: card tokenization, subscriptions, webhook-driven reconciliation, and dispute handling. Backed by Postgres through Supabase with Alembic-managed migrations. I designed and built the Classes module (regular classes and workshops) and the audit logging module, and fixed timezone handling issues across the project.",
     stack: ["FastAPI", "SQLModel", "PostgreSQL", "Finix", "Docker"],
     link: { label: "osala.us", href: "https://osala.us" },
     private: true,
@@ -130,7 +132,7 @@ export const skills = [
   },
   {
     category: "AI tooling",
-    items: ["LangChain", "OpenAI API", "Anthropic API"],
+    items: ["LangChain", "LLMs", "Agentic AI", "OpenAI API", "Anthropic API"],
   },
   {
     category: "Infra",

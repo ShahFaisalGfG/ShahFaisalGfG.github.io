@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shah Faisal - Backend Developer",
+  title: "Shah Faisal - Software Engineer",
   description:
-    "Backend developer working in Python. FastAPI services, SQL data models, and the workers behind them.",
+    "Software Engineer specializing in backend development and AI integration. Python, FastAPI, LangChain, LLMs, and agentic AI workflows.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
