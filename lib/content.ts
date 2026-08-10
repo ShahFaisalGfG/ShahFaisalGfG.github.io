@@ -84,6 +84,7 @@ export const projects: Project[] = [
   },
   {
     name: "Osala",
+    image: "/images/osala.png",
     description:
       "Backend for a beauty and business management platform used through a mobile app. Handles bookings, catalog, and scheduling, plus a full Finix payment integration: card tokenization, subscriptions, webhook-driven reconciliation, and dispute handling. Backed by Postgres through Supabase with Alembic-managed migrations.",
     stack: ["FastAPI", "SQLModel", "PostgreSQL", "Finix", "Docker"],
